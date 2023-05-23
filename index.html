@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Challenge-Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo.png" alt="logo de Alura">
+    </header>
+    <div class="contenedor">
+        <div class="encriptador">
+            <textarea class="ingresartexto" name="ingresartexto" id="ingresartexto" cols="30" rows="10" placeholder="Ingrese el texto aqui..." autofocus></textarea>
+
+        </div>
+        <div class="condiciones">
+            <img src="imagenes/exclamacion.png" alt="">
+            <p>solo letras minusculas y sin acento.</p>
+        </div>
+        <div class="botones">
+            <input type="button" class="btn_encriptar" value="Encriptar">
+            <input type="button" class="btn_desencriptar" value="Desencriptar">
+        </div>
+        <div class="encriptadoguardado">
+            <img class="imgmuneco" src="imagenes/Muñeco.png" alt="">
+            <div class="mensajeencriptado">
+                <h2 class="titulomensaje">Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desea encriptar o desencriptar</p>
+            </div>
+            <div class="copiar">
+                <input type="button" class="btn_copiar" value="Copiar">
+            </div>
+            <div class="resultado">
+                <p class="textoencriptado"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <p>Desarrollado por Rodrigo Alexis Cruz Piedragil  &copy Copyright 2023</p>
+        <p>Alura-One Challenge Encriptador</p>
+    </footer>
+</body>
+</html>
